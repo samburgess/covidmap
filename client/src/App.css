@@ -1,0 +1,36 @@
+
+.Map{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.DayList{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: scroll;
+  list-style-type: none;
+  background-color: rgb(59, 47, 47);
+  color: #61dafb;
+  padding-left: 0;
+  padding-right: 5vh;
+  width: auto;
+  height: auto;
+}
+
+.DayEl{
+  border: white;
+  border-style: double;
+  margin-top: 10px;
+  text-align: left;
+  width: max-content;
+  padding: 1vh;
+}
+
+.Wrapper{
+  text-align: center;
+  color: white;
+  background-color: rgb(59, 47, 47);
+  height: 100vh;
+}
